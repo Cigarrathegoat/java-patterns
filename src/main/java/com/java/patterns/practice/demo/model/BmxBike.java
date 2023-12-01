@@ -6,3 +6,4 @@ public class BmxBike extends Bike {
     public void getHardware() {
         System.out.println("little frame");
     }
+}
