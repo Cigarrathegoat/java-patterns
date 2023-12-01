@@ -18,6 +18,7 @@ public class DbFactory {
         } else if ("Postgres".equals(database)) {
             chosenDB = new Postgres();
         }
+
         chosenDB.query(sql);
         chosenDB.update(sql);
 
