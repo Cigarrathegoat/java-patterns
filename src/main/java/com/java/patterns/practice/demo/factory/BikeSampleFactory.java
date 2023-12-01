@@ -7,9 +7,9 @@ public class BikeSampleFactory {
         Bike bikeInQuestion = null;
         if ("BmxBike".equals(bikeType)) {
             bikeInQuestion = new BmxBike();
-        } else if ("CityBike".equals(bikeInQuestion)) {
+        } else if ("CityBike".equals(bikeType)) {
             bikeInQuestion = new CityBike();
-        } else if ("MountainBike".equals(bikeInQuestion)) {
+        } else if ("MountainBike".equals(bikeType)) {
             bikeInQuestion = new MountainBike();
         } else {
             bikeInQuestion = new NoBikeChosen();
